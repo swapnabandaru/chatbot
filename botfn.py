@@ -14,6 +14,6 @@ def get_answer(user_input,ds):
 			question=k
 			count1=count2
 	if not question:
-			print "Bot: Sorry. I did not understand you. "
+			print "Bot : Sorry. I did not understand you. "
 	else:
-			print "Bot: %s" % (random.choice(ds[question]))
+			print "Bot : %s" % (random.choice(ds[question]))
